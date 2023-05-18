@@ -1,0 +1,252 @@
+.s-title {
+  font-size: 48px;
+  line-height: 120%;
+  margin-bottom: 32px;
+}
+
+@media (max-width: 960px) {
+  .s-title {
+    font-size: 34px;
+    margin-bottom: 28px;
+  }
+}
+
+.ecology {
+  background-image: url("../img/esg/eco-bg.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.ecology__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+  .ecology__wrapper {
+    flex-direction: column;
+  }
+}
+
+.ecology__inner:first-child {
+  padding: 60px 40px;
+  grid-row: 2;
+}
+
+@media (max-width: 960px) {
+  .ecology__inner:first-child {
+    padding: 40px 12px;
+  }
+}
+
+@media (max-width: 768px) {
+  .ecology__inner:first-child {
+    padding: 40px 20px;
+  }
+}
+
+.ecology__inner:last-child {
+  min-width: 30%;
+  background-image: url("../img/esg/eco-photo.jpg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.ecology__inner:last-child:before {
+  content: "ESG";
+  position: absolute;
+  bottom: 20%;
+  font-weight: bold;
+  font-size: 30px;
+  background-color: #E02221;
+  padding: 10px 50px 10px 10px;
+}
+
+@media (max-width: 768px) {
+  .ecology__inner:last-child {
+    min-width: 100%;
+    height: 320px;
+    background-position: 50% 5%;
+  }
+}
+
+.ecology__desc p {
+  font-size: 28px;
+  margin-bottom: 30px;
+  line-height: 150%;
+}
+
+@media (max-width: 768px) {
+  .ecology__desc p {
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 140%;
+  }
+}
+
+.ecology__desc p:last-child {
+  margin-bottom: 0;
+}
+
+.provision {
+  padding: 60px 40px;
+  background-image: url("../img/esg/provision-bg.png");
+  background-position: center;
+  background-size: cover;
+}
+
+@media (max-width: 960px) {
+  .provision {
+    padding: 40px 20px;
+  }
+}
+
+.provision__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 960px) {
+  .provision__wrapper {
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 961px) and (max-width: 1280px) {
+  .provision__sub-wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 960px) {
+  .provision__sub-wrap {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.provision__sub-title {
+  display: inline-block;
+  padding-right: 26px;
+  margin-bottom: 30px;
+  font-size: 32px;
+}
+
+@media (max-width: 1600px) {
+  .provision__sub-title {
+    font-size: 28px;
+    padding-right: 20px;
+  }
+}
+
+@media (min-width: 961px) and (max-width: 1400px) {
+  .provision__sub-title {
+    order: 2;
+    padding-top: 12px;
+  }
+}
+
+@media (max-width: 540px) {
+  .provision__sub-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+}
+
+.provision__ico {
+  display: inline-block;
+  text-align: left;
+}
+
+@media (min-width: 1921px) {
+  .provision__ico {
+    text-align: left;
+  }
+}
+
+@media (max-width: 960px) {
+  .provision__ico {
+    text-align: center;
+    order: 1;
+  }
+}
+
+.provision__ico img {
+  width: 90px;
+  min-width: 90px;
+  height: 70px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+@media (max-width: 1420px) {
+  .provision__ico img {
+    width: 70px;
+    min-width: 70px;
+  }
+}
+
+.provision__inner {
+  width: 30%;
+  margin: 0 1%;
+}
+
+@media (max-width: 1600px) {
+  .provision__inner {
+    width: 32%;
+  }
+}
+
+@media (max-width: 1280px) {
+  .provision__inner {
+    width: 32%;
+  }
+}
+
+@media (max-width: 960px) {
+  .provision__inner {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
+
+.provision__s-title {
+  margin-bottom: 44px;
+}
+
+@media (max-width: 960px) {
+  .provision__s-title {
+    margin-bottom: 28px;
+  }
+}
+
+.provision__list {
+  padding-top: 12px;
+  padding-left: 30px;
+}
+
+.provision__item {
+  line-height: 130%;
+  position: relative;
+  font-size: 22px;
+  margin-bottom: 22px;
+}
+
+@media (max-width: 1420px) {
+  .provision__item {
+    font-size: 18px;
+  }
+}
+
+.provision__item:before {
+  content: "";
+  position: absolute;
+  top: 12px;
+  left: -24px;
+  width: 16px;
+  height: 2px;
+  background-color: #e02221;
+}
