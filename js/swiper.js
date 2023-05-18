@@ -9,6 +9,7 @@
             nextEl: ".banner__slider .sl-arrows__arrow--next",
             prevEl: ".banner__slider .sl-arrows__arrow--prev",
         },
+        // effect: 'fade',
         pagination: {
             el: ".swiper-pagination",
             clickable: true,
