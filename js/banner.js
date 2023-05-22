@@ -5,10 +5,12 @@
     new Swiper(".n-banner__slider", {
         slidesPerView: 1,
         spaceBetween: 6,
-        autoplay: true,
+        autoplay: {
+            delay: 2000,
+          },
         // loop: true,
         allowTouchMove: false,
-        speed: 5000,
+        speed: 1000,
         navigation: {
             nextEl: ".n-banner__slider .sl-arrows__arrow--next",
             prevEl: ".n-banner__slider .sl-arrows__arrow--prev",
