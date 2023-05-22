@@ -109,7 +109,7 @@
 
 @media (max-width: 960px) {
     .sl-arrows__arrow {
-        display: none;
+        /* display: none; */
     }
 }
 

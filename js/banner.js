@@ -7,7 +7,7 @@
         spaceBetween: 6,
         autoplay: true,
         // loop: true,
-        // allowTouchMove: false,
+        allowTouchMove: false,
         speed: 5000,
         navigation: {
             nextEl: ".n-banner__slider .sl-arrows__arrow--next",
