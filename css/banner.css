@@ -149,7 +149,7 @@
     }
 }
 
-body.main .banner .wrapper {
+body.main .banner .wrapper.edit {
     max-height: 100px;
     position: absolute;
     bottom: 0;
