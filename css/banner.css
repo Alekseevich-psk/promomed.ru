@@ -8,7 +8,7 @@
 
 .n-banner__title {
     user-select: none;
-    font-size: 68px;
+    font-size: 40px;
     line-height: 1;
     margin-bottom: 40px;
 }
@@ -43,10 +43,10 @@
     position: relative;
     display: flex;
     min-height: 100%;
-    align-items: center;
+    align-items: flex-end;
     min-height: 100vh;
     margin-bottom: -300px;
-    padding: 0 64px;
+    padding: 0 40px 120px;
 }
 
 .n-banner__text-wrap {
@@ -153,4 +153,8 @@ body.main .banner .wrapper.edit {
     max-height: 100px;
     position: absolute;
     bottom: 0;
+}
+
+.n-banner__description, .n-banner__align {
+    display: none;
 }
